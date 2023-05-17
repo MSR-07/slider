@@ -1,12 +1,9 @@
-import React from 'react'
-import './App.css';
+import React from "react";
+import "./App.css";
+import Slider from "./components/Slider";
 
-function App() {
-  return (
-    <>
-      <h3>Hello from App Component</h3>
-    </>
-  );
+function App(){
+  return <Slider/>
 }
 
 export default App;
